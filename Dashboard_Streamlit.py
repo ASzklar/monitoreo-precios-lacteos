@@ -8,6 +8,7 @@ from datetime import timedelta
 # -------------------- Configuración --------------------
 st.set_page_config(page_title="Monitoreo de precios", layout="wide")
 st.title("Monitoreo de precios")
+st.logo("logo.jpeg", size="large")
 st.header("🧀 Quesos Cremosos en supermercados")
 
 # -------------------- Carga de archivos consolidados --------------------
